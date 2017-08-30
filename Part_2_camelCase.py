@@ -1,5 +1,5 @@
 def main():
-    sentence = "fOnt# proCESSOR and ParsER".lower()
+    sentence = "fOnt proCESSOR and ParsER".lower()
     badCharsList = ["@", "#", "$", "%", "^", "&", "*"]
     for badChar in badCharsList:
         if badChar in sentence:
